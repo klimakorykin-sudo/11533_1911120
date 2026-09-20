@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Аня ✨</title>
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <script src="js/background.js"></script>
+  <script src="js/cursor.js"></script>
+
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">Аня <span>·</span></div>
+      <nav class="nav">
+        <a href="#about">Обо мне</a>
+        <a href="#skills">Навыки</a>
+        <a href="#actions">Поступки</a>
+        <a href="#achievements">Достижения</a>
+        <a href="#photos">Фото</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <div class="badge">✦ ПЕРСОНАЛЬНЫЙ САЙТ</div>
+        <h1>Привет! Я <span>Аня</span></h1>
+        <p class="hero-sub">Капитан команды. Призёр. Человек, который не сдаётся.</p>
+        <p class="hero-desc">
+          Здесь живут мои достижения, мои увлечения и моя история.
+          Не «проект». Не «цель». Просто — я.
+        </p>
+        <div class="btn-group">
+          <a href="#about" class="btn">Узнать больше</a>
+          <a href="assets/resume.pdf" target="_blank" class="btn">📄 Посмотреть резюме</a>
+        </div>
+
+        <div class="counter">
+          <div class="counter-item">
+            <span class="counter-icon">👁</span>
+            <span class="counter-text">Ты зашла: <strong id="visit-count">1</strong> раз</span>
+          </div>
+          <div class="counter-item">
+            <span class="counter-icon">⏱</span>
+            <span class="counter-text">Ты здесь уже: <strong id="time-spent">0 сек</strong></span>
+          </div>
+        </div>
+
+        <div class="weather-widget" id="weather-widget">
+          <div class="weather-icon">🌡</div>
+          <div class="weather-body">
+            <div class="weather-text">Загрузка...</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="avatar-circle">
+          <img src="assets/images/anya.jpg" alt="Аня">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">Обо мне</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Я — Аня. Мне 12 лет. Я учусь в МАОУ «Гуманитарный лицей» № 15,
+            в 7 «Г» классе. И я — капитан команды СШ «Гармония».
+          </p>
+          <p>
+            Я люблю гимнастику. Люблю ковёр. Люблю чувство, когда всё
+            получается — синхронно, красиво, вместе.
+          </p>
+          <p>
+            Я не люблю проигрывать. Но ещё больше — не люблю сдаваться.
+            Поэтому я тренируюсь. Каждый день. Даже когда трудно.
+          </p>
+        </div>
+        <div class="about-info">
+          <div class="info-item">
+            <span class="info-label">Имя</span>
+            <span class="info-value">Аня</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Возраст</span>
+            <span class="info-value">12 лет</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Класс</span>
+            <span class="info-value">7 «Г»</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Школа</span>
+            <span class="info-value">МАОУ «Гуманитарный лицей» № 15</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Спорт</span>
+            <span class="info-value">СШ «Гармония»</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Статус</span>
+            <span class="info-value status-active">● Капитан</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title">Навыки</h2>
+      <p class="section-sub">То, что делает меня сильной</p>
+
+      <div class="skills-grid">
+        <div class="skill">
+          <div class="skill-head">
+            <span>Групповые упражнения</span>
+            <span>95%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>Работа с предметами</span>
+            <span>90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>Выносливость</span>
+            <span>88%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 88%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>Дисциплина</span>
+            <span>92%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 92%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>Командный дух</span>
+            <span>98%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 98%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>Учёба</span>
+            <span>85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="actions">
+    <div class="container">
+      <h2 class="section-title">Поступки</h2>
+      <p class="section-sub">То, что делает меня — мной</p>
+
+      <div class="skills-grid">
+        <div class="skill">
+          <div class="skill-head">
+            <span>Хладнокровно принимает решения</span>
+            <span>100%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 100%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>Не сдаётся</span>
+            <span>100%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 100%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>Идёт до конца</span>
+            <span>100%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 100%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="achievements">
+    <div class="container">
+      <h2 class="section-title">Достижения</h2>
+      <p class="section-sub">То, чем я горжусь</p>
+
+      <div class="achievements-grid">
+        <div class="achievement">
+          <div class="achievement-date">2025–2026</div>
+          <h3>Капитан команды СШ «Гармония»</h3>
+          <p>Координирую работу девочек на ковре, отвечаю за командный дух, общую синхронность и поддержку во время важных стартов.</p>
+        </div>
+
+        <div class="achievement">
+          <div class="achievement-date">Май 2022</div>
+          <h3>Участница и призёр «Гимнастрады»</h3>
+          <p>Вместе с командой представляла Псковскую область на Всероссийском соревновательном марафоне в формате групповых упражнений.</p>
+        </div>
+
+        <div class="achievement">
+          <div class="achievement-date">2025–2026</div>
+          <h3>Многократный участник соревнований</h3>
+          <p>Регулярно выступаю на первенствах города Пскова и области, защищая честь своей спортивной школы.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ФОТО — КАРУСЕЛЬ -->
+  <section class="section" id="photos">
+    <div class="container">
+      <h2 class="section-title">Фото</h2>
+      <p class="section-sub">Моменты, которые я помню</p>
+
+      <div class="carousel">
+        <button class="carousel-btn carousel-prev" id="carouselPrev">‹</button>
+
+        <div class="carousel-track" id="carouselTrack">
+          <div class="carousel-slide"><img src="assets/images/photos/1.jpg" alt="Фото 1"></div>
+          <div class="carousel-slide"><img src="assets/images/photos/2.jpg" alt="Фото 2"></div>
+          <div class="carousel-slide"><img src="assets/images/photos/3.jpg" alt="Фото 3"></div>
+          <div class="carousel-slide"><img src="assets/images/photos/4.jpg" alt="Фото 4"></div>
+          <div class="carousel-slide"><img src="assets/images/photos/5.jpg" alt="Фото 5"></div>
+          <div class="carousel-slide"><img src="assets/images/photos/6.jpg" alt="Фото 6"></div>
+          <div class="carousel-slide"><img src="assets/images/photos/7.jpg" alt="Фото 7"></div>
+        </div>
+
+        <button class="carousel-btn carousel-next" id="carouselNext">›</button>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Проекты</h2>
+      <p class="section-sub">Сайты, сделанные для меня</p>
+
+      <div class="projects-grid">
+        <a href="https://klimakorykin-sudo.github.io/anya_ai/" target="_blank" class="project-card">
+          <h3>NEON // Аня</h3>
+          <p>Умный чат-бот</p>
+        </a>
+
+        <a href="https://klimakorykin-sudo.github.io/11533191120/index.html" target="_blank" class="project-card">
+          <h3>Аня · Вдохновение</h3>
+          <p>Персональный сайт</p>
+        </a>
+
+        <a href="https://klimakorykin-sudo.github.io/anya-ai-labs/" target="_blank" class="project-card">
+          <h3>Аня ✨ // AI Labs</h3>
+          <p>Мой личный ИИ</p>
+        </a>
+
+        <a href="https://klimakorykin-sudo.github.io/Anya/" target="_blank" class="project-card">
+          <h3>Anya</h3>
+          <p>Ты — целая вселенная</p>
+        </a>
+
+        <a href="https://klimakorykin-sudo.github.io/game_anya_v5.34.68/" target="_blank" class="project-card">
+          <h3>Game Anya</h3>
+          <p>Игра про меня</p>
+        </a>
+
+        <a href="https://klimakorykin-sudo.github.io/new-year/index.html" target="_blank" class="project-card">
+          <h3>🎄 Анечке с любовью</h3>
+          <p>Новогодний сюрприз</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Контакты</h2>
+      <p class="section-sub">Если хочешь связаться</p>
+
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span class="contact-label">Школа</span>
+          <span class="contact-value">МАОУ «Гуманитарный лицей» № 15</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Класс</span>
+          <span class="contact-value">7 «Г»</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Спорт</span>
+          <span class="contact-value">СШ «Гармония»</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Город</span>
+          <span class="contact-value">Псков</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Сделано <span class="heart">♥</span> для <strong>Сосницкой Анны Андреевны</strong></p>
+      <p class="footer-year">проект · 2026</p>
+    </div>
+  </footer>
+
+  <audio id="bg-music" loop>
+    <source src="assets/music/anya.mp3" type="audio/mpeg">
+  </audio>
+
+  <button class="music-btn" id="musicBtn" title="Музыка">🔇</button>
+
+  <script src="js/music.js"></script>
+  <script src="js/counter.js"></script>
+  <script src="js/consent.js"></script>
+  <script src="js/scroll-reveal.js"></script>
+  <script src="js/time-spent.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/weather.js"></script>
+
+</body>
+</html>
